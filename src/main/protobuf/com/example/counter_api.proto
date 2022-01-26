@@ -30,7 +30,7 @@ message GetCounter {
 }
 
 message CurrentCounter {
-  string counter_id = 1 [(akkaserverless.field).entity_key = true];
+  string counter_id = 1;
   int32 value = 2;
 }
 

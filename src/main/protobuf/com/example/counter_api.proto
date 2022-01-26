@@ -7,7 +7,7 @@ import "google/api/annotations.proto";
 
 package com.example;
 
-message CreateCounter {
+message CreateCounter { // This is the message for creating a counter (and having AS generate the id)
   int32 initial_value = 1;
 }
 
